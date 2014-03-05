@@ -1,0 +1,8 @@
+The three versions of LinearEquation solver use three of the possible implementations:
+
+Case 1 is clearly the simplest code but the variable a,b are unique for all the instantiated objects of the class
+the sol value must be recorded separately
+Case 2 is a little more complicate but many solver can be instantiated and all of their values preserved during the
+execution
+Case 3 is the most OO based any object preserves its own data which lives as long as the objects live. Solutions are stored
+within the object fields
